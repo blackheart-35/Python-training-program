@@ -322,7 +322,7 @@ can fetch key and value or both.
 
 
 
-### bitwise operator: 
+### bitwise operator:
 
 
 
@@ -333,11 +333,11 @@ can fetch key and value or both.
 
 
 
-1. &nbsp;Bitwise and operator(\&) 
-2. &nbsp;Bitwise or operator(|) 
-3. &nbsp;Bitwise xor operator(^) 
-4. &nbsp;Bitwise left shift operator(<<) 
-5. &nbsp;Bitwise right shift operator(>>)
+1.  Bitwise and operator(\&)
+2.  Bitwise or operator(|)
+3.  Bitwise xor operator(^)
+4.  Bitwise left shift operator(<<)
+5.  Bitwise right shift operator(>>)
 
 
 
@@ -369,7 +369,7 @@ can fetch key and value or both.
 
 
 
-### or operator 
+### or operator
 
 
 
@@ -383,7 +383,7 @@ can fetch key and value or both.
 
 
 
-### bitwise "or" operator : 
+### bitwise "or" operator :
 
 
 
@@ -392,9 +392,10 @@ can fetch key and value or both.
 
 
 * each bits become one when only one bits become one
-  
 
-#### Truth table : 
+
+
+#### Truth table :
 
 
 
@@ -416,5 +417,183 @@ can fetch key and value or both.
 
 
 
-left shift 
+### left shift :
+
+
+
+
+
+* Bits move to the left, and new 0s come in from the right.
+* 
+* Effect:
+* 
+* Number becomes bigger (multiplies by 2 for each shift).
+* 
+* Example:
+* 4 << 1
+* 
+* 
+* Binary of 4 → 0100
+* 
+* Left shift by 1 → 1000 → 8
+
+
+
+### 
+
+### 
+
+### Right Shift (>>)
+
+
+
+* Bits move to the right, and:
+* 
+* For positive numbers, new bits on the left are 0
+* 
+* For negative numbers, new bits are 1 (sign bit preserved)
+* 
+* Effect:
+* 
+* Number becomes smaller (divides by 2 for each shift).
+
+
+
+#### Example:
+
+4 >> 1
+
+
+
+
+
+* Binary of 4 → 0100
+* 
+* Right shift by 1 → 0010 → 2
+
+
+
+
+
+
+
+
+
+
+
+### Assignment operator:
+
+
+
+
+
+###### We have only one assignment operator which is equal operator(=). It is
+
+###### used to assign the value to variables.
+
+###### Apart from this we have an augmented assignment operator, which is
+
+###### used to update the already existing value of any variable and store the
+
+###### resultant output in the same variable.
+
+###### 
+
+
+
+
+
+
+
+Eg: a=12
+
+a=a+8 or a+=8
+
+a=20
+
+
+
+
+
+
+
+
+
+### Membership operators:
+
+
+
+
+
+
+
+###### These operators are used to check if a given value is a part or member
+
+###### of a given collection(multi valued data type)
+
+###### We have only 2 membership operators:
+
+
+
+
+
+###### 1\. IN
+
+###### 2\. not in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### &nbsp;Identity operators:
+
+
+
+###### These operators are used to check if two variables are pointing towards
+
+###### same memory location or not
+
+###### We have only 2 identity operators:
+
+###### 1 IS
+
+###### 2 IS NOT
+
+
+
+
+
+
+
+
+
+###### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
