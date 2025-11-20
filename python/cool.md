@@ -583,6 +583,79 @@ a=20
 
 
 
+### Input and output statements:
+
+
+
+
+
+#### input():
+
+
+
+
+
+###### ● It is an inbuilt function that is used to get input from the user for
+
+###### whom we have written the program for.
+
+###### ● This inbuilt function can only take input in the form of string data
+
+###### type
+
+###### ● To take input in the form of any individual(single-valued) data type
+
+###### we have to typecast the input function.
+
+###### ● example : to get input in the form of integer data type we have to
+
+###### write it as:
+
+###### int(input(‘Message’))
+
+
+
+
+
+### 
+
+### Flow control statements:
+
+
+
+
+
+
+
+###### it is a statement that determine the order in which statement are exuted in a program.
+
+###### they allow you to make decision and execute certain part of code
+
+
+
+###### 
+
+### Conditional statements: 
+
+
+
+
+
+###### used for decision making
+
+
+
+#### types:
+
+
+
+###### 1: if
+
+###### 2: else
+
+###### 3: elif
+
+###### 
 
 
 
@@ -592,8 +665,52 @@ a=20
 
 
 
+### if :
 
 
+
+* ###### it checks the condition true or now
+
+###### 
+
+* ###### it only run when condition is true
+
+###### 
+
+* ###### if condition is false it skipped
+
+###### 
+
+
+
+### else:
+
+
+
+
+
+* ###### when the condition is true so if block is executed.
+* ###### when the condition is false else block are executed
+
+
+
+
+
+
+
+
+
+### elif:
+
+
+
+###### 
+
+* ###### used when you need to check multiple condition.
+* ###### python check condition in order.
+* ###### the first true condition are executed.
+* ###### rest of the condition are skipped.
+* ###### if none are true else block executed.
 
 
 
